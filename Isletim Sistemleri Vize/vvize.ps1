@@ -15,11 +15,11 @@ foreach($item in Get-Process) {
 $find = netstat -ano | findstr $item.Id
 if ($find) {
 $result = arrayFilterSpace("$find".Split(' '));
-$servisport= $result[1].Substring($result[1].lastIndexOf(':')+1)
+$serviceport= $result[1].Substring($result[1].lastIndexOf(':')+1)
 $servicename = $item.Name
 $serviceway = $item.Path
 $info = "Service: $servicename`r`n"
-$info += "Port: $servisport`r`n"
+$info += "Port: $serviceport`r`n"
 $info += "way: $serviceway`r`n`r`n"
 $out += $info
 $info

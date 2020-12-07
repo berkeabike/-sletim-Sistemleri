@@ -1,2 +1,2 @@
-# -sletim-Sistemleri
+# Isletim-Sistemleri
 İsletim Sistemleri Ödevİ

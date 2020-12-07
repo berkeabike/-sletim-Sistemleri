@@ -1,2 +1,3 @@
 # Isletim-Sistemleri
-İsletim Sistemleri Ödevİ
+İsletim Sistemleri Ödevi
+Berke Abike 19MY93016
